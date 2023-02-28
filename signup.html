@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewpnort" content="width=device-width, initial-scale=1.0">
+  <title>bootstrap
+  </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="nav.css">
+
+</head>
+
+<!-- nabar  -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid"><button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img
+            src="data:image/png;base64,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"
+            alt="Logo" width="50" height=54" class="d-inline-block align-text-top">
+
+          <h1 class="px-5">KERALA TOURISM</h1>
+        </a>
+      </div>
+    </nav>
+
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active fs-3" aria-current="page" href="#">Home</a>
+
+
+        <li class="nav-item dropdown1">
+          <a class="nav-link dropdown-toggle fs-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            DISTRICTS
+          </a>
+
+          <ul class="dropdown-menu">
+
+
+            <li><a class="dropdown-item" href="#">Thiruvananthapuram</a></li>
+            <li><a class="dropdown-item" href="#">Kollam</a></li>
+            <li><a class="dropdown-item" href="#">Pathanamthitta</a></li>
+            <li><a class="dropdown-item" href="#">Alappuzha</a></li>
+            <li><a class="dropdown-item" href="#">Kottayam</a></li>
+            <li><a class="dropdown-item" href="#">Idukki</a></li>
+            <li><a class="dropdown-item" href="#">Ernakulam</a></li>
+            <li><a class="dropdown-item" href="#">Thrissur</a></li>
+            <li><a class="dropdown-item" href="#">Palakkad</a></li>
+            <li><a class="dropdown-item" href="#">Malappuram</a></li>
+            <li><a class="dropdown-item" href="#">Wayanad </a></li>
+            <li><a class="dropdown-item" href="#">Kozhikode</a></li>
+            <li><a class="dropdown-item" href="#">Kannur</a></li>
+            <li><a class="dropdown-item" href="#">Kasaragod</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown2">
+          <li class="nav-item dropdown1">
+          
+
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">login</a></li>
+           
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+          </ul>
+        </li>
+        
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+</div>
+<!-- Section: Design Block -->
+<section class=" text-center text-lg-start">
+    <style>
+      .rounded-t-5 {
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
+      }
+  
+      @media (min-width: 992px) {
+        .rounded-tr-lg-0 {
+          border-top-right-radius: 0;
+        }
+  
+        .rounded-bl-lg-5 {
+          border-bottom-left-radius: 0.5rem;
+        }
+      }
+    </style>
+    <div class="card mb-3" style="height: 900px;">
+      <div class="row g-0 d-flex align-items-center">
+        <div class="col-lg-4 d-none d-lg-flex">
+          <img src="https://mdbootstrap.com/img/new/ecommerce/vertical/004.jpg" alt="Trendy Pants and Shoes"
+            class="w-100 rounded-t-5 rounded-tr-lg-0 rounded-bl-lg-5" />
+        </div>
+        <div class="col-lg-8">
+          <div class="card-body py-1 px-md-5">
+            <h1>SIGN IN</h1>
+  
+            <form>
+              <!-- Email input -->
+              <div class="form-outline mb-3">
+                <input type="email" id="form2Example1" class="form-control" />
+                <label class="form-label" for="form2Example1" style="font-size: 40px;">Email address</label>
+              </div>
+  
+              <!-- Password input -->
+              <div class="form-outline mb-4">
+                <input type="password" id="form2Example2" class="form-control" />
+                <label class="form-label" for="form2Example2" style="font-size: 40px;"> Password</label>
+              </div>
+  
+              <!-- 2 column grid layout for inline styling -->
+              <div class="row mb-4">
+                <div class="col d-flex justify-content-center">
+                  <!-- Checkbox -->
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
+                    <label class="form-check-label" for="form2Example31"> Remember me </label>
+                  </div>
+                </div>
+  
+                <div class="col">
+                  <!-- Simple link -->
+                  <a href="#!">Forgot password?</a>
+                </div>
+              </div>
+  
+              <!-- Submit button -->
+              <button type="button" class="btn btn-primary btn-block mb-4">Sign in</button>
+  
+            </form>
+  
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section: Design Block -->
+
+</body>
+
+</html>

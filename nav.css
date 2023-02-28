@@ -1,0 +1,40 @@
+
+.container-fluid{
+    display: flex;justify-content: center;
+}
+#background{
+    background-image:url(https://in.pinterest.com/pin/photography-reference--10062799159036908/)
+}
+
+
+.para1{
+    font-size: 25px;
+
+}
+.carousel-inner , .carousel-item , .carousel-item>img {
+    height: 300px;
+ 
+}
+.navbar-brand{
+   
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+   
+}
+.card, .col-4{
+    height: 500px;
+    overflow: hidden;
+}
+
+.card >img{
+    height: 200px ;
+}
+
+.card-title{
+    text-align: center;
+}
